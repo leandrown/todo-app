@@ -1,7 +1,7 @@
 <h1>{{ title }}</h1>
 <small *ngIf="todos.length == 0">Você não tem tarefas para hoje</small>
 <ul>
-  <li *ngFor="let item of todos">{{ item.id }}. {{ item.task }} |
+  <li *ngFor="let item of todos">{{ item.task }} |
     <button type="button" *ngIf="!item.done" (click)="markAsDone(item)">Concluir</button> |
     <button type="button" *ngIf="item.done" (click)="markAsRedo(item)">Refazer</button> |
     <button type="button" (click)="remove(item)">Remover</button>

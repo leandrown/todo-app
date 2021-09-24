@@ -11,4 +11,32 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   text-align: center;
+
+  ul {
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    background: #fff;
+    border-radius: 6px;
+    -moz-box-shadow: 3px 4px 14px 0 rgba(0, 0, 0, .39);
+    -webkit-box-shadow: 3px 4px 14px 0 rgba(0, 0, 0, .39);
+    box-shadow: 3px 4px 14px 0 rgba(0, 0, 0, .39);
+
+    li {
+      margin: 10px;
+      padding: 15px;
+      font-size: 1em;
+      font-style: italic;
+      border-bottom: 2px solid rgba(0, 0, 0, .2);
+    }
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  .text-center {
+    text-align: center;
+  }
 }
